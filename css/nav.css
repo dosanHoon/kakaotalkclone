@@ -1,0 +1,14 @@
+nav {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 50px;
+  width: 100%;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
