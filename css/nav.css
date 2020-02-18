@@ -2,7 +2,9 @@ nav {
   position: fixed;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.3);
-  height: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  left:0;
   width: 100%;
 }
 
@@ -12,3 +14,4 @@ nav ul {
   justify-content: space-between;
   align-items: center;
 }
+

@@ -3,3 +3,30 @@
 @import "header.css";
 @import "chats.css";
 @import "nav.css";
+
+body {
+    padding: 20px;
+}
+
+@keyframes onLoad {
+    from {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.loading {
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translateX(-100%);
+    width: 100%;
+    height: 100%;
+    animation: onLoad 0.5s ease-out forwards;
+}
