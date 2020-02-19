@@ -3,6 +3,8 @@
 @import "header.css";
 @import "chats.css";
 @import "nav.css";
+@import "friends.css";
+@import "char.css";
 
 body {
     padding: 20px;

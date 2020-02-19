@@ -1,31 +1,31 @@
-/* .chat_item {
+.char_item {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.chat_content .user_name,
-.chat_content .chat_preview {
+.char_content .user_name,
+.char_content .sub_text {
   display: block;
 }
 
-.chat_content .user_name {
+.char_content .user_name {
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 600;
 }
 
-.chat_content .chat_preview {
+.char_content .sub_text {
   font-size: 15px;
 }
 
-.chat_avatar {
+.char_avatar {
   height: 50px;
   border-radius: 50%;
   margin-right: 5px;
 }
 
-.chat_col {
+.col {
   display: flex;
   align-items: center;
-} */
+}
