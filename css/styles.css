@@ -6,8 +6,17 @@
 @import "friends.css";
 @import "char.css";
 
+html {
+    height: 100%;
+}
+
 body {
     padding: 20px;
+    height: 100%;
+}
+
+body.full_screen{
+    padding: 0;
 }
 
 @keyframes onLoad {

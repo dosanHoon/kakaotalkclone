@@ -85,6 +85,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  color: black;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -102,6 +103,7 @@ section {
 }
 body {
   line-height: 1;
+  color: black;
 }
 ol,
 ul {
@@ -125,17 +127,20 @@ table {
 
 a:link {
   text-decoration: none;
+  color: black;
 }
 
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: black;
 }
 
 a:hover {
   text-decoration: none;
+  color: black;
 }
 
 a:active {
   text-decoration: none;
+  color: black;
 }
